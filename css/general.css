@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin: 3em;
+padding: 0;
+
+background-color:#999;
+
+font-family:Arial, Helvetica, sans-serif;
+}
+
+article{
+	padding:1em;
+	margin: auto;
+	width:600px;
+	
+	-webkit-box-shadow: 4px 4px 4px 4px ;
+	-moz-box-shadow: 4px 4px 4px 4px ;
+	box-shadow: 4px 4px 4px 4px ; 
+
+	background-color:#CCC;
+
+}
+
+.task {
+	display:inline;
+}
+
+.submit {
+	display:inline;
+	margin:1em;
+}
+
+.toplist {
+	margin-top:2em;
+}
+
+.incomplete {
+	margin:1em;
+	color:#09F;
+	
+}
+
+.done {
+	margin:1em;
+	color:#930;
+	text-decoration:line-through;
+
+}
